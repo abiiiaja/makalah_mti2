@@ -130,7 +130,7 @@ ranking_kesenjangan_riil['Ranking'] = range(1, len(ranking_kesenjangan_riil) + 1
 print(f"Total Populasi Provinsi Jawa Timur (BPS): {total_populasi_provinsi:,} jiwa")
 
 print("\n" + "=" * 80)
-print("             SAMPEL BEBAN PASIEN RIIL YANG DIBANGKITKAN")
+print("             DATA SIMULASI PASIEN")
 print("=" * 80)
 print(df_pasien[['Kabupaten'] + SPESIALIS].to_string(index=False))
 
